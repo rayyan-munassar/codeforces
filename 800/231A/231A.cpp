@@ -1,42 +1,43 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define fast_io ios_base::sync_with_stdio(false); cin.tie(NULL);
+#define fast_io                       \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);
 #define ll long long
 #define pb push_back
 #define mp make_pair
 
-void solve() {
+void solve()
+{
     int p;
 
     cin >> p;
 
-    int res;
+    int res = 0;
 
-    for(int i = 0; i < p; i++){
+    for (int i = 0; i < p; i++)
+    {
         int a, b, c;
 
         cin >> a >> b >> c;
 
-        if(a + b + c >= 2){
+        if (a + b + c >= 2)
+        {
             res++;
         }
-
-
-
     }
 
-        cout << res << endl;
-
-
-
+    cout << res << endl;
 }
 
-int main() {
+int main()
+{
     fast_io;
     int t = 1;
-    cin >> t; // Comment this out if the problem has only 1 testcase
-    while (t--) {
+    // cin >> t; // Comment this out if the problem has only 1 testcase
+    while (t--)
+    {
         solve();
     }
     return 0;

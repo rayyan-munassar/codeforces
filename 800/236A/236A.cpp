@@ -10,18 +10,21 @@ using namespace std;
 
 void solve()
 {
-    int w;
 
-    cin >> w;
+    string username;
 
-    if (w > 2 && w % 2 == 0)
+    cin >> username;
+
+    set<char> distinct;
+
+    for (char c : username)
     {
-        cout << "YES\n";
+        distinct.insert(c);
     }
-    else
-    {
-        cout << "NO\n";
-    }
+
+    string res = distinct.size() % 2 == 0 ? "CHAT WITH HER!" : "IGNORE HIM!";
+
+    cout << res << endl;
 }
 
 int main()
