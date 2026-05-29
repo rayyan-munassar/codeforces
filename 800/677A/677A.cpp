@@ -26,7 +26,7 @@ void solve()
             min_street_width += 2;
     }
 
-    cout << min_street_width << end;
+    cout << min_street_width << endl;
 }
 
 int main()

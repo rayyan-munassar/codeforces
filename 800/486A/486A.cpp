@@ -17,7 +17,7 @@ void solve()
     if (n % 2 == 0)
         cout << (n / 2) << endl;
     else
-        cout << n - ((n - 1) / 2) << endl;
+        cout << -(n - ((n - 1) / 2)) << endl;
 }
 
 int main()

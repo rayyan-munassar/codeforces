@@ -39,9 +39,9 @@ void solve()
     }
 
     if (levels.size() == n)
-        cout << "I become the guy" << '\n';
+        cout << "I become the guy." << '\n';
     else
-        cout << "Oh, my keyboard!"
+        cout << "Oh, my keyboard!";
 }
 
 int main()

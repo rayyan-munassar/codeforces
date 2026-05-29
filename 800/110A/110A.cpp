@@ -11,7 +11,7 @@ using namespace std;
 void solve()
 {
 
-    long n;
+    ll n;
 
     cin >> n;
 

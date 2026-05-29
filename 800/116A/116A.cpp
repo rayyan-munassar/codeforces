@@ -15,7 +15,7 @@ void solve()
     cin >> n;
 
     int minmum_capacity = 0;
-    intcurrent_capacity = 0;
+    int current_capacity = 0;
 
     for (int i = 0; i < n; i++)
     {

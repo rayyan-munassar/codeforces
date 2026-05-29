@@ -72,7 +72,7 @@ int main()
 {
     fast_io;
     int t = 1;
-    cin >> t; // Comment this out if the problem has only 1 testcase
+    // cin >> t; // Comment this out if the problem has only 1 testcase
     while (t--)
     {
         solve();

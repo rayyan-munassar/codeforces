@@ -29,6 +29,8 @@ void solve()
             int last_digit = copyYear % 10;
 
             seen[last_digit]++;
+
+            copyYear /= 10;
         }
 
         for (const auto &[key, val] : seen)

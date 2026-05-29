@@ -26,9 +26,13 @@ void solve()
         }
         else
         {
-            int remainder = a & b;
+            int remainder = a % b;
 
-            cout << (b - remainder) << endl;
+            if(b - remainder > 0){
+                cout << (b - remainder) << endl;
+            }else{
+                cout << -1*(b - remainder) << endl;
+            }
         }
     }
 }
