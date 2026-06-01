@@ -13,7 +13,7 @@ void solve()
 
     string set;
 
-    cin >> set;
+    getline(cin, set);
 
     unordered_map<char, bool> seen;
 
