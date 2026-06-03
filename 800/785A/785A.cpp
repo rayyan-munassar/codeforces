@@ -13,14 +13,14 @@ void solve()
     int n;
 
     cin >> n;
-
+    cin.ignore();
     int res = 0;
     for (int i = 0; i < n; i++)
     {
 
         string s;
 
-        getline(cin, s);
+        cin >> s;
 
         if (s[0] == 'T')
         {
