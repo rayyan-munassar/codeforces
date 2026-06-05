@@ -31,9 +31,18 @@ void solve()
             e_count++;
         else if (c == 't')
             t_count++;
+    }
 
-        if (n_count >= 2 && i_count > 0 && t_count > 0 && e_count >= 3)
+    if (n_count >= 3 && i_count > 0 && t_count > 0 && e_count >= 3)
+    {
+        res++;
+        n_count -= 3;
+        i_count--;
+        t_count--;
+        e_count -= 3;
+        while (n_count >= 2 && i_count > 0 && t_count > 0 && e_count >= 3)
         {
+
             res++;
             n_count -= 2;
             i_count--;
